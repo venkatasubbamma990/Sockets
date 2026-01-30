@@ -21,7 +21,7 @@ io.on('connection', (socket)=> {
     
 
     socket.on('message', (message) => {
-        console.log('Message received from client:', message)
+        console.log('Message received from client:', message )
     })
     socket.on('disconnect', () => {
         console.log("Client disconnected with socket ID:", socket.id)
